@@ -30,11 +30,10 @@ export const main = Reach.App(() => {
     .invariant(balance() == 0)
     .while(howMany < 5)
     .api(Bobs.attach,
-      //() => {check(!addresses.member(this))},
-      () => {},
+      () => {check(!addresses.member(this))},
       () => 0,
       (k) => {
-        //check(!addresses.member(this))
+        check(!addresses.member(this))
         k(null)
         addresses.insert(this)
         return howMany + 1
