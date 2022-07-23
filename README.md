@@ -6,7 +6,6 @@ Front-end: React JS
 
 Smart contract: [Reach](https://reach.sh)
 
-Note: The web interface is for demonstration purposes only.
 
 Screenshots:
 
